@@ -1,0 +1,31 @@
+.productCatagory{
+    font-family:'Cinzel', serif;
+    font-size: 28px;
+    margin-left: 10px;
+    text-decoration: dashed;
+
+}
+.rangeindicator{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+}
+.card1{
+    cursor: pointer;
+   
+    box-shadow: 0px 0px 41px 0px rgba(44,61,51,0.84);
+    -webkit-box-shadow: 0px 0px 41px 0px rgba(44,61,51,0.84);
+    -moz-box-shadow: 0px 0px 41px 0px rgba(44,61,51,0.84);
+}
+.card1:hover{
+    transform: scale(1.1) ;
+-webkit-transform: scale(1.1) ;
+-moz-transform: scale(1.1) ;
+transition-duration: .5s;
+
+}
+.categoryList{
+    list-style: none;
+    cursor: pointer;
+}
